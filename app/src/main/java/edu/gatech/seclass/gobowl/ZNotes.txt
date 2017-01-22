@@ -1,0 +1,11 @@
+NOTES 1
+
+        // Use the application context, to ensure that we
+        // don't accidentally leak an Activity's context.
+        // See this article for more information:
+        // http://android-developers.blogspot.com/2009/01/avoiding-memory-leaks.html
+Context.getApplicationContext()
+
+
+Any table being used by an Adapter must use the primary key named "_id" or it fails.
+This is why the disconnect from cust_id and _id for the table column names.

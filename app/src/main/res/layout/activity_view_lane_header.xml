@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="6dp"
+        android:padding="3dp"
+        android:visibility="visible"
+        android:text="Lane"
+        android:textStyle="bold"
+        android:background="#c0c0c0"
+        android:id="@+id/lane_id_header" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:text="Owner Name"
+        android:textStyle="bold"
+        android:background="#c0c0c0"
+        android:layout_toRightOf="@id/lane_id_header"
+        android:id="@+id/lane_name_header" />
+
+</RelativeLayout>

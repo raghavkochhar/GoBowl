@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">GoBowl</string>
+    <string name="add_record">Add Record</string>
+    <string name="export_records">Export Records</string>
+    <string name="title_activity_card_scan">CardScanActivity</string>
+</resources>

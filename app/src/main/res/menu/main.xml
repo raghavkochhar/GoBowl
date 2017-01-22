@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ListCustomerActivity" >
+
+    <item android:id="@+id/add_record"
+        android:icon="@drawable/ic_action_new"
+        android:title="@string/add_record"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/export_records"
+        android:icon="@drawable/ic_action_import_export"
+        android:title="@string/export_records"
+        android:visible="false"
+        app:showAsAction="never"/>
+
+</menu>
