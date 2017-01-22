@@ -17,6 +17,7 @@ import java.util.Date;
 import edu.gatech.seclass.services.CreditCardService;
 import edu.gatech.seclass.services.PaymentService;
 
+
 public class CheckoutPaymentActivity extends AppCompatActivity implements View.OnClickListener {
 
     public GoBowlDatabase gb;
